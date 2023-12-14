@@ -2,7 +2,7 @@
 
 import { Router } from 'express';
 import { addProgramme, getProgramme, updateProgramme, deleteProgramme } from './Controleurs/Programme.js';
-import { verifyToken } from 'chemin_vers/authMiddleware'; // Assurez-vous que le chemin d'importation est correct
+import { verifyToken } from '/Users/franciskanane/Downloads/projet1_2023/authentification/Permission.js'; 
 
 const router = Router();
 

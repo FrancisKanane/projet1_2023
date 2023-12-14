@@ -1,7 +1,7 @@
 import { addetudiants, getAlletudiants, updateetudiants, getetudiantsById, deleteetudiants } from "../Controleurs/Etudiants.js"
 import { Router } from "express";
 import etudiantsRules from '../validations/etudiantsValidations.js'
-import { verifyToken } from 'chemin_vers/authMiddleware'; // Assurez-vous que le chemin d'importation est correct
+import { verifyToken } from '/Users/franciskanane/Downloads/projet1_2023/authentification/Permission.js'; 
 
 const router = Router()
 
